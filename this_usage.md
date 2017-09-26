@@ -24,9 +24,9 @@ function taskA() {
       return () => console.log(this.name)
     }
   }
-  fn()
-  arrow_fn()
-  obj.arrow()
-  objj.arrow()()
+  fn() // hello
+  arrow_fn() // hello
+  obj.arrow() // Hi
+  objj.arrow()() // Good
 }
 taskA()
